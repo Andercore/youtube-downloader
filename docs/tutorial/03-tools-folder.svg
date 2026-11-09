@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 620" role="img" aria-labelledby="title desc">
+  <title id="title">Tools folder</title>
+  <desc id="desc">A Windows-style tools folder containing yt-dlp and FFmpeg files.</desc>
+  <rect width="1100" height="620" fill="#15191d"/>
+  <rect x="24" y="22" width="1052" height="56" rx="8" fill="#20252b"/>
+  <path d="M56 42h24l10 12h34v18H56Z" fill="#f2c94c"/>
+  <text x="144" y="59" fill="#f4f4f4" font-family="Segoe UI, sans-serif" font-size="20">Downloads  ›  YouTube_Downloader  ›  tools</text>
+  <rect x="24" y="100" width="1052" height="52" fill="#262b31"/>
+  <text x="54" y="133" fill="#eee" font-family="Segoe UI, sans-serif" font-size="18">Name</text>
+  <text x="490" y="133" fill="#eee" font-family="Segoe UI, sans-serif" font-size="18">Type</text>
+  <text x="790" y="133" fill="#eee" font-family="Segoe UI, sans-serif" font-size="18">Purpose</text>
+  <g font-family="Segoe UI, sans-serif" font-size="18" fill="#ddd">
+    <text x="54" y="196">yt-dlp.exe</text><text x="490" y="196">Application</text><text x="790" y="196">Downloader</text>
+    <text x="54" y="250">ffmpeg.exe</text><text x="490" y="250">Application</text><text x="790" y="250">Media conversion</text>
+    <text x="54" y="304">ffprobe.exe</text><text x="490" y="304">Application</text><text x="790" y="304">Media inspection</text>
+    <text x="54" y="358">avcodec-*.dll</text><text x="490" y="358">Application extension</text><text x="790" y="358">FFmpeg library</text>
+    <text x="54" y="412">avformat-*.dll</text><text x="490" y="412">Application extension</text><text x="790" y="412">FFmpeg library</text>
+    <text x="54" y="466">avutil-*.dll</text><text x="490" y="466">Application extension</text><text x="790" y="466">FFmpeg library</text>
+  </g>
+  <text x="54" y="555" fill="#aaa" font-family="Segoe UI, sans-serif" font-size="17">Example layout based on the supplied Windows tools-folder screenshot.</text>
+</svg>
