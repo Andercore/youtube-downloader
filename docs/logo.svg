@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">YouTube Downloader logo</title>
+  <desc id="desc">A YouTube play button with a blue download symbol.</desc>
+  <rect x="32" y="96" width="424" height="320" rx="72" fill="#c9342b"/>
+  <path d="M216 184 344 256 216 328Z" fill="#fff"/>
+  <circle cx="376" cy="368" r="120" fill="#0ea5e9"/>
+  <path d="M352 296h48v64h48l-72 88-72-88h48Z" fill="#fff"/>
+  <path d="M320 456h112v16H320Z" fill="#fff"/>
+</svg>
