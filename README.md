@@ -26,31 +26,64 @@ The application checks for the required tools and downloads them when they are
 missing. The `tools` directory may contain `yt-dlp`, `FFmpeg`, and their
 supporting files after the first run.
 
-## 🚀 How to use
+## 📖 Tutorial
 
-### 1️⃣ Download the application
+### 1️⃣ Download and open the program
 
 1. Open the [latest release](../../releases/latest).
-2. Download the executable asset attached to that release.
-3. Save it in a folder where the application can create its `tools` and output
-   files.
+2. Download the `.exe` asset attached to the release.
+3. Place it in its own folder, then run it.
 
-🔒 Please download executable files only from releases published in this
-repository. Windows or antivirus software may show a warning for unsigned
-files, so review the release information before deciding whether to continue.
+🔒 Download executable files only from releases published in this repository.
+Windows or antivirus software may show a warning for unsigned files, so review
+the release information before deciding whether to continue.
 
-### 2️⃣ Choose an operation
+### 2️⃣ Let the program install its tools
 
-Run the executable and select one of the available menu options:
+On the first launch, the program checks whether `yt-dlp` is available. If it
+is missing, it downloads the required tool and displays the progress in the
+console.
 
-- **Download Video** — save a YouTube video as a supported video file.
-- **Download Audio** — extract audio in a supported audio format.
-- **Update Tools** — update the bundled download and media-processing tools.
+![Required tools check](docs/tutorial/01-tools-check.svg)
+
+Wait until the check finishes before choosing an operation. Do not close the
+window while a tool is being downloaded.
+
+### 3️⃣ Choose video, audio, update, or exit
+
+After the tools check, the main menu is displayed:
+
+![Main menu](docs/tutorial/02-main-menu.svg)
+
+- **Download Video** — paste a YouTube URL and save video as MP4, MKV, WEBM,
+  or AVI when those formats are available.
+- **Download Audio** — paste a YouTube URL and extract audio as MP3, M4A, WAV,
+  or FLAC when those formats are available.
+- **Update Tools** — update `yt-dlp` and the media-processing tools.
 - **Exit** — close the application.
 
-Paste the YouTube URL when requested and follow the progress shown in the
-console window. Downloaded files are saved according to the application's
-current output configuration.
+Select an option by typing its number and pressing **Enter**.
+
+### 4️⃣ Paste the YouTube link
+
+When prompted, copy the URL from your browser, paste it into the console, and
+press **Enter**. Follow the progress shown by the downloader and wait for the
+operation to finish before closing the window.
+
+Only download videos or audio that you own, have permission to use, or are
+otherwise legally allowed to save. Respect YouTube's terms and the copyright
+of the content creator.
+
+### 5️⃣ Check the tools folder
+
+The application keeps its supporting files in a `tools` folder next to the
+executable. Depending on the release, this can include `yt-dlp`, `ffmpeg`,
+`ffprobe`, and the FFmpeg libraries:
+
+![Tools folder](docs/tutorial/03-tools-folder.svg)
+
+Do not delete or rename these files while the application is running. Use the
+**Update Tools** option when the release provides it.
 
 ## 🧰 Tools
 

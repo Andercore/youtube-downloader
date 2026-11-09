@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 430" role="img" aria-labelledby="title desc">
+  <title id="title">Main menu</title>
+  <desc id="desc">The downloader main menu with video, audio, update, and exit choices.</desc>
+  <rect width="900" height="430" rx="14" fill="#111"/>
+  <rect width="900" height="42" rx="14" fill="#20252b"/>
+  <circle cx="24" cy="21" r="6" fill="#d8544f"/>
+  <circle cx="44" cy="21" r="6" fill="#d9a441"/>
+  <circle cx="64" cy="21" r="6" fill="#55a85b"/>
+  <text x="88" y="27" fill="#eee" font-family="Consolas, monospace" font-size="16">YouTube 4K Downloader Pro</text>
+  <text x="28" y="88" fill="#fff" font-family="Consolas, monospace" font-size="19">╔══════════════════════════════════════════════════════════════╗</text>
+  <text x="28" y="118" fill="#fff" font-family="Consolas, monospace" font-size="21" font-weight="700">║              AUTOMATIC 4K DOWNLOADER - YOUTUBE             ║</text>
+  <text x="28" y="148" fill="#fff" font-family="Consolas, monospace" font-size="19">╚══════════════════════════════════════════════════════════════╝</text>
+  <text x="42" y="205" fill="#ddd" font-family="Consolas, monospace" font-size="21">[1] Download Video  (MP4, MKV, WEBM, AVI)</text>
+  <text x="42" y="237" fill="#ddd" font-family="Consolas, monospace" font-size="21">[2] Download Audio  (MP3, M4A, WAV, FLAC)</text>
+  <text x="42" y="269" fill="#ddd" font-family="Consolas, monospace" font-size="21">[3] Update Tools (yt-dlp + FFmpeg)</text>
+  <text x="42" y="301" fill="#ddd" font-family="Consolas, monospace" font-size="21">[4] Exit</text>
+  <line x1="28" y1="333" x2="872" y2="333" stroke="#777"/>
+  <text x="42" y="372" fill="#fff" font-family="Consolas, monospace" font-size="21" font-weight="700">Choose an option (1-4):</text>
+</svg>

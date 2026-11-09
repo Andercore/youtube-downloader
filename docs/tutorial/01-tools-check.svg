@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 430" role="img" aria-labelledby="title desc">
+  <title id="title">Required tools check</title>
+  <desc id="desc">A console window showing the downloader checking and downloading yt-dlp.</desc>
+  <rect width="900" height="430" rx="14" fill="#111"/>
+  <rect width="900" height="42" rx="14" fill="#20252b"/>
+  <circle cx="24" cy="21" r="6" fill="#d8544f"/>
+  <circle cx="44" cy="21" r="6" fill="#d9a441"/>
+  <circle cx="64" cy="21" r="6" fill="#55a85b"/>
+  <text x="88" y="27" fill="#eee" font-family="Consolas, monospace" font-size="16">YouTube 4K Downloader Pro</text>
+  <text x="28" y="88" fill="#fff" font-family="Consolas, monospace" font-size="19">╔══════════════════════════════════════════════════════════════╗</text>
+  <text x="28" y="118" fill="#fff" font-family="Consolas, monospace" font-size="22" font-weight="700">║                 REQUIRED TOOLS CHECK                       ║</text>
+  <text x="28" y="148" fill="#fff" font-family="Consolas, monospace" font-size="19">╚══════════════════════════════════════════════════════════════╝</text>
+  <text x="28" y="205" fill="#f3d45c" font-family="Consolas, monospace" font-size="20">[!] yt-dlp.exe not found. Downloading...</text>
+  <rect x="28" y="235" width="720" height="20" fill="#333"/>
+  <rect x="28" y="235" width="360" height="20" fill="#ddd"/>
+  <text x="28" y="292" fill="#bbb" font-family="Consolas, monospace" font-size="18">Please wait while the required tools are prepared.</text>
+</svg>
