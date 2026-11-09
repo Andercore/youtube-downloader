@@ -11,10 +11,7 @@ YouTube Downloader is a menu-driven utility for downloading video and audio
 from YouTube links. It uses `yt-dlp` for downloads and `FFmpeg` for media
 processing and format conversion.
 
-> ⚠️ **Disclaimer:** I provide this project **as-is**. I wrote the original
-> code, but I am not responsible for account actions, copyright violations,
-> data loss, damage, or any other consequence resulting from its use. Use it
-> only for content you are legally allowed to download and at your own risk.
+> **Author:** I created and maintain the original code in this project.
 
 ## ✅ Requirements
 
