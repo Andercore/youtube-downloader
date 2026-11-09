@@ -40,9 +40,14 @@ the release information before deciding whether to continue.
 
 ### 2️⃣ Let the program install its tools
 
-On the first launch, the program checks whether `yt-dlp` is available. If it
-is missing, it downloads the required tool and displays the progress in the
-console.
+On the first launch, the program checks the two required tools in order:
+
+1. **`yt-dlp`** — downloads YouTube video and audio streams.
+2. **`FFmpeg`** — combines, extracts, and converts the downloaded media.
+
+If either tool is missing, the program downloads its package and displays the
+progress in the console. Wait for both checks to reach 100% before choosing an
+operation.
 
 ![Required tools check](docs/tutorial/01-tools-check.svg)
 

@@ -11,7 +11,11 @@
   <text x="28" y="118" fill="#fff" font-family="Consolas, monospace" font-size="22" font-weight="700">║                 REQUIRED TOOLS CHECK                       ║</text>
   <text x="28" y="148" fill="#fff" font-family="Consolas, monospace" font-size="19">╚══════════════════════════════════════════════════════════════╝</text>
   <text x="28" y="205" fill="#f3d45c" font-family="Consolas, monospace" font-size="20">[!] yt-dlp.exe not found. Downloading...</text>
-  <rect x="28" y="235" width="720" height="20" fill="#333"/>
-  <rect x="28" y="235" width="360" height="20" fill="#ddd"/>
-  <text x="28" y="292" fill="#bbb" font-family="Consolas, monospace" font-size="18">Please wait while the required tools are prepared.</text>
+  <rect x="28" y="220" width="720" height="20" fill="#333"/>
+  <rect x="28" y="220" width="720" height="20" fill="#ddd"/>
+  <text x="28" y="276" fill="#bbb" font-family="Consolas, monospace" font-size="18">yt-dlp download complete.</text>
+  <text x="28" y="315" fill="#f3d45c" font-family="Consolas, monospace" font-size="20">[!] FFmpeg not found. Downloading package...</text>
+  <rect x="28" y="330" width="720" height="20" fill="#333"/>
+  <rect x="28" y="330" width="99" height="20" fill="#ddd"/>
+  <text x="28" y="386" fill="#bbb" font-family="Consolas, monospace" font-size="18">Please wait for FFmpeg to finish before continuing.</text>
 </svg>
